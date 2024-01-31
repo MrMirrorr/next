@@ -3,7 +3,7 @@ import Link from 'next/link';
 const Post = ({ post }) => {
   return (
     <div className="post">
-      <Link href="/">Назад</Link>
+      <Link href="/index">Назад</Link>
       <br />
       <h2>{post.title}</h2>
       <p>{post.body}</p>
