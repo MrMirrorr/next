@@ -5,7 +5,7 @@ const Header = () => {
     <header>
       <strong>Frontend Developer</strong>
       <nav>
-        <Link href="/index">Home</Link>
+        <Link href="/">Home</Link>
         <Link href="/about">About</Link>
       </nav>
     </header>
